@@ -1,11 +1,13 @@
 html {
   box-sizing: border-box;
 }
-body {
-  background-color: rgba(174, 137, 41, 0.549);
-  background-image: url("./img/bg.jpg");
-}
 
+body {
+  background-image: url('/img/bg1.avif'); /* Path to the local image file */
+  background-size: cover; /* Ensures the image covers the entire viewport */
+  background-position: left; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents tiling */
+}
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -65,7 +67,7 @@ body {
 }
 
 .text-box .fake-btn {
-  background-color: rgb(21, 161, 237);
+  background-color: rgb(237, 107, 21);
   border-radius: 3px;
   bottom: -50px;
   color: #fff;
@@ -127,7 +129,7 @@ body {
 }
 
 .baloons img:nth-child(even) {
-  left: -10%;
+  left: -5%;
 }
 
 .baloons img:nth-child(odd) {
